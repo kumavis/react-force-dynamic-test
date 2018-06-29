@@ -18,7 +18,7 @@ class App extends Component {
   updateCount () {
     let { counter } = this.state
     counter++
-    let count = 200 + counter % 10
+    let count = 2 + counter % 10
     this.setState({ counter, count })
   }
 
